@@ -55,9 +55,28 @@ links:
     icon: "fab fa-github"
     url: "https://github.com/educatedCaveman"
     target: "_blank" # optional html tag target attribute
+
   - name: "Font Awesome Icons"
     icon: "fab fa-font-awesome"
-    url:  "https://fontawesome.com/v4.7.0/icons/"
+    url:  "https://fontawesome.com/icons/"
+    target: "_blank"
+
+  # Pirate Bay
+  - name: "The Pirate Bay"
+    icon: "fas fa-skull-crossbones"
+    url:  "https://thepiratebay.rocks"
+    target: "_blank"
+
+  # Jira
+  - name: "Jira"
+    icon: "fab fa-jira"
+    url:  "https://drak3.atlassian.net"
+    target: "_blank"
+
+  # Namecheap
+  - name: "Namecheap"
+    icon: "fas fa-cubes"
+    url:  "https://ap.www.namecheap.com"
     target: "_blank"
 
 services:
