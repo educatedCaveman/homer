@@ -80,7 +80,7 @@ links:
     target: "_blank"
 
   # Namecheap
-  - name: "testing"
+  - name: "testing 2"
     icon: "fas fa-cubes"
     url:  "https://google.com"
     target: "_blank"
