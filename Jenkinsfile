@@ -3,12 +3,9 @@ pipeline {
 
     environment {
         ANSIBLE_REPO = '/var/lib/jenkins/workspace/ansible_master'
-        SCRIPTS_REPO = '/var/lib/jenkins/workspace/scripts_master'
-        PORTAINER_DEV_PASS = credentials('PORTAINER_DEV_PASS')
-        PORTAINER_PRD_PASS = credentials('PORTAINER_PRD_PASS')
-        LOCAL_REPO_DEV = '/var/lib/jenkins/workspace/docker_dev_test'
-        LOCAL_REPO_PRD = '/var/lib/jenkins/workspace/docker_master'
         WEBHOOK = credentials('JENKINS_DISCORD')
+        PORTAINER_DEV_WEBHOOK = credentials('PORTAINER_WEBHOOK_DEV_HOMER')
+        PORTAINER_PRD_WEBHOOK = credentials('PORTAINER_WEBHOOK_PRD_HOMER')
     }
 
     //triggering periodically so the code is always present
@@ -27,6 +24,18 @@ pipeline {
                 sh 'ansible-playbook ${ANSIBLE_REPO}/deploy/docker/deploy_docker_compose_dev.yml --extra-vars repo="homer"'
             }
         }
+        // trigger portainer redeploy
+        // separated out so this only gets run if the ansible playbook doesn't fail
+        stage('redeploy portainer stack (DEV)') {
+            when { 
+                expression { env.BRANCH_NAME == 'dev_test' } 
+            }
+            steps {
+                // deploy configs to DEV
+                echo 'Redeploy DEV stack'
+                sh 'http post ${PORTAINER_DEV_WEBHOOK}'
+            }
+        }
 
         // deploy code to sevastopol, when the branch is 'master'
         stage('deploy prd code') {
@@ -35,6 +44,16 @@ pipeline {
                 // deploy configs to PRD
                 echo 'deploy docker config files (PRD)'
                 sh 'ansible-playbook ${ANSIBLE_REPO}/deploy/docker/deploy_docker_compose_prd.yml --extra-vars repo="homer"'
+            }
+        }
+        // trigger portainer redeploy
+        // separated out so this only gets run if the ansible playbook doesn't fail
+        stage('redeploy portainer stack (PRD)') {
+            when { branch 'master' }
+            steps {
+                // deploy configs to DEV
+                echo 'Redeploy PRD stack'
+                sh 'http post ${PORTAINER_PRD_WEBHOOK}'
             }
         }
 
