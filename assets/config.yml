@@ -1,0 +1,404 @@
+## Configuration
+---
+title: "Grand Ol' Dungeon of the Horned God"
+subtitle: "Homer"
+# documentTitle: "Welcome" # Customize the browser tab text
+logo: "assets/icons/icon-maskable.png"
+# https://fontawesome.com/v4.7.0/icons/
+# Alternatively a fa icon can be provided:
+# icon: "fas fa-skull-crossbones"
+
+header: true # Set to false to hide the header
+footer: false # set false if you want to hide it.
+
+# TODO: try setting this to 4
+columns: "auto" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+# columns: 4
+connectivityCheck: true # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example)
+
+# Optional theming
+theme: default # 'default' or one of the themes available in 'src/assets/themes'.
+
+#default colors from github:
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#424242"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link-hover: "#363636"
+    background-image: "assets/your/light/bg.png"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#ffdd57"
+    background-image: "assets/your/dark/bg.png"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/educatedCaveman"
+    target: "_blank" # optional html tag target attribute
+  - name: "Font Awesome Icons"
+    icon: "fab fa-font-awesome"
+    url:  "https://fontawesome.com/v4.7.0/icons/"
+    target: "_blank"
+
+services:
+  - name: "Servers"
+    icon: "fas fa-server"
+    items:
+      - name: "Mobius"
+        logo: "assets/truenas.png"
+        url:  "https://mobius.drak3.io"
+        target: "_blank"        
+
+      - name: "Tesseract"
+        logo: "assets/proxmox.png"
+        url:  "https://tesseract.drak3.io"
+        target: "_blank"
+
+      - name: "Unifi Controller"
+        logo: "assets/unifi-controller.png"
+        url:  "https://unifi.drak3.io"
+        target: "_blank"
+
+      - name: "Unifi Protect"
+        logo: "assets/unifi.png"
+        url:  "https://nvr.drak3.io"
+        target: "_blank"
+
+      - name: "Guacamole"
+        logo: "assets/guacamole.png"
+        url:  "https://guac.drak3.io"
+        target: "_blank"
+
+      - name: "Mobius (iDRAC)"
+        logo: "assets/idrac.png"
+        url:  "https://idrac.mobius.drak3.io"
+        target: "_blank"
+
+      - name: "Tesseract (iDRAC)"
+        logo: "assets/idrac.png"
+        url:  "https://idrac.tesseract.drak3.io"
+        target: "_blank"
+
+      - name: "pfSense (IPMI)"
+        icon: "fas fa-server"
+        url:  "http://192.168.1.10"
+        target: "_blank"
+
+      - name: "OctoPrint"
+        logo: "assets/octoprint.png"
+        url:  "https://octopi.drak3.io"
+        target: "_blank"
+
+  - name: "Media Services"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Plex"
+        logo: "assets/plex.png"
+        url:  "https://plex.drak3.io"
+        target: "_blank"
+
+      - name: "Ombi"
+        logo: "assets/ombi.png"
+        url:  "https://ombi.drak3.io"
+        target: "_blank"
+
+      - name: "Tautulli"
+        logo: "assets/tautulli.png"
+        url:  "https://tau.drak3.io/"
+        target: "_blank"
+
+      - name: "NextCloud"
+        logo: "assets/nextcloud.png"
+        url:  "https://cloud.drak3.io"
+        target: "_blank"
+
+      - name: "qBittorrent"
+        logo: "assets/qbittorrent.svg"
+        url:  "https://qbt.drak3.io/"
+        target: "_blank"
+
+      - name: "HandBrake"
+        logo: "assets/handbrake.png"
+        url:  "https://hb.drak3.io"
+        target: "_blank"
+
+      - name: "YouTube DL"
+        logo: "assets/youtubedl.png"
+        url:  "https://ytdl.drak3.io"
+        target: "_blank"
+
+  - name: "Torrent Services"
+    icon: "fas fa-share-alt"
+    items:
+
+      - name: "qBittorrent"
+        logo: "assets/qbittorrent.svg"
+        url:  "https://qbt.drak3.io/"
+        target: "_blank"
+
+      - name: "Radarr (Movies)"
+        logo: "assets/radarr.png"
+        url:  "https://radarr.drak3.io"
+        target: "_blank"
+
+      - name: "Sonarr (TV)"
+        logo: "assets/sonarr.svg"
+        url:  "https://sonarr.drak3.io"
+        target: "_blank"
+
+      - name: "Lidarr (Music)"
+        logo: "assets/lidarr.png"
+        url:  "https://lidarr.drak3.io"
+        target: "_blank"
+
+      - name: "Jackett"
+        logo: "assets/jackett.png"
+        url:  "https://jackett.drak3.io"
+        target: "_blank"
+
+  - name: "Data Services"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Syncthing"
+        logo: "assets/syncthing.png"
+        url:  "https://sync.drak3.io/syncthing/"
+        target: "_blank"
+
+      - name: "Minio"
+        logo: "assets/minio.png"
+        url:  "https://s3.drak3.io/"
+        target: "_blank"
+
+      - name: "InfluxDB / Chronograf"
+        logo: "assets/influxdb.svg"
+        url:  "https://influx.drak3.io/"
+        target: "_blank"
+
+      - name: "Grafana"
+        logo: "assets/grafana.svg"
+        url:  "https://grafana.drak3.io/"
+        target: "_blank"
+
+      - name: "Unifi Protect (feeds)"
+        logo: "assets/unifi.png"
+        url:  "https://nvr.drak3.io"
+        target: "_blank"
+
+  - name: "Development Tools"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Jenkins"
+        logo: "assets/jenkins.png"
+        url:  "https://jenkins.drak3.io/"
+        target: "_blank"
+
+      - name: "Gitea"
+        logo: "assets/gitea.svg"
+        url:  "https://git.drak3.io/"
+        target: "_blank"
+
+      - name: "VS Code"
+        logo: "assets/vscode.svg"
+        url:  "https://code.drak3.io"
+        target: "_blank"
+
+      - name: "Portainer"
+        logo: "assets/portainer.png"
+        url:  "https://portainer.drak3.io/"
+        target: "_blank"
+
+  - name: "Admin Tools"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Apt Cache NG"
+        icon: "fas fa-cubes"
+        url:  "https://apt-cache.drak3.io/acng-report.html"
+        target: "_blank"
+
+      - name: "Apt Mirror"
+        icon: "fas fa-database"
+        url:  "https://apt-mirror.drak3.io/ubuntu"
+        target: "_blank"
+
+      - name: "Singularity"
+        logo: "assets/pihole.png"
+        url:  "https://pihole.drak3.io/admin/index.php"
+        target: "_blank"
+
+      - name: "Event Horizon"
+        logo: "assets/pihole.png"
+        url:  "https://pihole2.drak3.io/admin/index.php"
+        target: "_blank"
+
+      - name: "Home-Assistant"
+        logo: "assets/home-assistant.svg"
+        url:  "https://home-assistant.drak3.io/"
+        target: "_blank"
+
+  - name: "GitHub"
+    icon: "fab fa-github"
+    items:
+    
+      - name: "Scripts"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/scripts"
+        target: "_blank"
+    
+      - name: "Dotfiles"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/dotfiles"
+        target: "_blank"
+    
+      - name: "Ansible"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/ansible"
+        target: "_blank"
+    
+      - name: "Docker"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/docker-lab"
+        target: "_blank"
+    
+      - name: "Jenkins"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/Jenkins"
+        target: "_blank"
+    
+      - name: "Documentation"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/Jenkins"
+        target: "_blank"
+
+  - name: "DEV"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Guacamole (DEV)"
+        logo: "assets/guacamole.png"
+        url:  "https://guac.dev.drak3.io"
+        target: "_blank"
+
+      - name: "HandBrake"
+        logo: "assets/handbrake.png"
+        url:  "https://hb.dev.drak3.io"
+        target: "_blank"
+
+      - name: "YouTube DL (DEV)"
+        logo: "assets/youtubedl.png"
+        url:  "https://ytdl.dev.drak3.io"
+        target: "_blank"
+
+      - name: "Ombi"
+        logo: "assets/ombi.png"
+        url:  "https://ombi.dev.drak3.io"
+        target: "_blank"
+
+      - name: "Tautulli"
+        logo: "assets/tautulli.png"
+        url:  "https://tau.dev.drak3.io/"
+        target: "_blank"
+
+      - name: "VS Code (DEV)"
+        logo: "assets/vscode.svg"
+        url:  "https://code.dev.drak3.io"
+        target: "_blank"
+
+      - name: "Portainer (DEV)"
+        logo: "assets/portainer.png"
+        url:  "https://portainer.dev.drak3.io/"
+        target: "_blank"
+
+  - name: "Netdata"
+    icon: "fas fa-tachometer"
+    items:
+    
+      - name: "Tesseract"
+        logo: "assets/netdata.png"
+        url:  "https://tesseract.srv:19999"
+        target: "_blank"
+    
+      - name: "Nextcloud"
+        logo: "assets/netdata.png"
+        url:  "https://nextcloud.vm:19999"
+        target: "_blank"
+    
+      - name: "Moria"
+        logo: "assets/netdata.png"
+        url:  "https://moria.vm:19999"
+        target: "_blank"
+    
+      - name: "GitLab"
+        logo: "assets/netdata.png"
+        url:  "https://gitlab.vm:19999"
+        target: "_blank"
+    
+      - name: "APT Mirror"
+        logo: "assets/netdata.png"
+        url:  "https://apt-mirror.vm:19999"
+        target: "_blank"
+    
+      - name: "APT Cache"
+        logo: "assets/netdata.png"
+        url:  "https://apt-cache.vm:19999"
+        target: "_blank"
+    
+      - name: "Plex"
+        logo: "assets/netdata.png"
+        url:  "https://plex.vm:19999"
+        target: "_blank"
+    
+      - name: "Singularity"
+        logo: "assets/netdata.png"
+        url:  "https://singularity.vm:19999"
+        target: "_blank"
+    
+      - name: "Jenkins"
+        logo: "assets/netdata.png"
+        url:  "https://jenkins.lab:19999"
+        target: "_blank"
+    
+      - name: "Sevastopol"
+        logo: "assets/netdata.png"
+        url:  "https://sevastopol.vm:19999"
+        target: "_blank"
+    
+      - name: "LV-426"
+        logo: "assets/netdata.png"
+        url:  "https://lv-426.lab:19999"
+        target: "_blank"
+    
+      - name: "Event Horizon"
+        logo: "assets/netdata.png"
+        url:  "https://event-horizon.srv:19999"
+        target: "_blank"
+    
+      - name: "Dilithium"
+        logo: "assets/netdata.png"
+        url:  "https://dilithium.srv:19999"
+        target: "_blank"
+
+        
