@@ -191,6 +191,11 @@ services:
         url:  "https://lidarr.drak3.io"
         target: "_blank"
 
+      - name: "Bazarr (Subtitles)"
+        logo: "assets/bazarr.png"
+        url:  "https://bazarr.drak3.io"
+        target: "_blank"
+
       - name: "Jackett"
         logo: "assets/jackett.png"
         url:  "https://jackett.drak3.io"
@@ -199,6 +204,12 @@ services:
   - name: "Data Services"
     icon: "fas fa-server"
     items:
+
+      - name: "Uptime-Kuma"
+        logo: "assets/uptime-kuma.png"
+        # url:  "https://uptime.drak3.io/"
+        url:  "http://192.168.12.20:3001/"
+        target: "_blank"
 
       - name: "Syncthing"
         logo: "assets/syncthing.png"
@@ -349,6 +360,12 @@ services:
       - name: "Portainer (DEV)"
         logo: "assets/portainer.png"
         url:  "https://portainer.dev.drak3.io/"
+        target: "_blank"
+
+      - name: "Uptime-Kuma (DEV)"
+        logo: "assets/uptime-kuma.png"
+        # url:  "https://uptime.dev.drak3.io/"
+        url:  "http://192.168.13.20:3001/"
         target: "_blank"
 
   - name: "Netdata"
