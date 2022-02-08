@@ -79,6 +79,12 @@ links:
     url:  "https://ap.www.namecheap.com"
     target: "_blank"
 
+  # Namecheap
+  - name: "testing"
+    icon: "fas fa-cubes"
+    url:  "https://google.com"
+    target: "_blank"
+
 services:
   - name: "Servers"
     icon: "fas fa-server"
