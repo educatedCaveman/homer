@@ -245,11 +245,6 @@ services:
         url:  "https://jenkins.drak3.io/"
         target: "_blank"
 
-      - name: "Gitea"
-        logo: "assets/gitea.svg"
-        url:  "https://git.drak3.io/"
-        target: "_blank"
-
       - name: "VS Code"
         logo: "assets/vscode.svg"
         url:  "https://code.drak3.io"
@@ -307,12 +302,7 @@ services:
         logo: "assets/github.png"
         url:  "https://github.com/educatedCaveman/ansible"
         target: "_blank"
-    
-      - name: "Docker"
-        logo: "assets/github.png"
-        url:  "https://github.com/educatedCaveman/docker-lab"
-        target: "_blank"
-    
+        
       - name: "Jenkins"
         logo: "assets/github.png"
         url:  "https://github.com/educatedCaveman/Jenkins"
@@ -320,7 +310,72 @@ services:
     
       - name: "Documentation"
         logo: "assets/github.png"
-        url:  "https://github.com/educatedCaveman/Jenkins"
+        url:  "https://github.com/educatedCaveman/documentation"
+        target: "_blank"
+    
+      - name: "Grafana Apps"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/grafana_apps"
+        target: "_blank"
+    
+      - name: "Ombi"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/ombi"
+        target: "_blank"
+    
+      - name: "Iperf"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/iperf"
+        target: "_blank"
+    
+      - name: "Homeassistant"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/homeassistant"
+        target: "_blank"
+    
+      - name: "Homer"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/homer"
+        target: "_blank"
+    
+      - name: "Handbrake"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/handbrake"
+        target: "_blank"
+    
+      - name: "Guacamole"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/guacamole"
+        target: "_blank"
+    
+      - name: "Y.T.D.L."
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/ytdl"
+        target: "_blank"
+    
+      - name: "Whoogle"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/whoogle"
+        target: "_blank"
+    
+      - name: "Watchtower"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/watchtower"
+        target: "_blank"
+    
+      - name: "VScode"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/vscode"
+        target: "_blank"
+    
+      - name: "Uptime Kuma"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/uptime-kuma"
+        target: "_blank"
+    
+      - name: "Tautulli"
+        logo: "assets/github.png"
+        url:  "https://github.com/educatedCaveman/tautulli"
         target: "_blank"
 
   - name: "DEV"
@@ -368,6 +423,11 @@ services:
         url:  "http://192.168.13.20:3001/"
         target: "_blank"
 
+      - name: "Grafana"
+        logo: "assets/grafana.svg"
+        url:  "https://grafana.dev.drak3.io/"
+        target: "_blank"
+
   - name: "Netdata"
     icon: "fas fa-tachometer"
     items:
@@ -377,54 +437,14 @@ services:
         url:  "https://tesseract.srv:19999"
         target: "_blank"
     
-      - name: "Nextcloud"
-        logo: "assets/netdata.png"
-        url:  "https://nextcloud.vm:19999"
-        target: "_blank"
-    
-      - name: "Moria"
-        logo: "assets/netdata.png"
-        url:  "https://moria.vm:19999"
-        target: "_blank"
-    
-      - name: "GitLab"
-        logo: "assets/netdata.png"
-        url:  "https://gitlab.vm:19999"
-        target: "_blank"
-    
-      - name: "APT Mirror"
-        logo: "assets/netdata.png"
-        url:  "https://apt-mirror.vm:19999"
-        target: "_blank"
-    
-      - name: "APT Cache"
-        logo: "assets/netdata.png"
-        url:  "https://apt-cache.vm:19999"
-        target: "_blank"
-    
-      - name: "Plex"
-        logo: "assets/netdata.png"
-        url:  "https://plex.vm:19999"
-        target: "_blank"
-    
       - name: "Singularity"
         logo: "assets/netdata.png"
         url:  "https://singularity.vm:19999"
         target: "_blank"
     
-      - name: "Jenkins"
-        logo: "assets/netdata.png"
-        url:  "https://jenkins.lab:19999"
-        target: "_blank"
-    
       - name: "Sevastopol"
         logo: "assets/netdata.png"
         url:  "https://sevastopol.vm:19999"
-        target: "_blank"
-    
-      - name: "LV-426"
-        logo: "assets/netdata.png"
-        url:  "https://lv-426.lab:19999"
         target: "_blank"
     
       - name: "Event Horizon"
