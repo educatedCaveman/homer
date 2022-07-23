@@ -83,6 +83,12 @@ services:
   - name: "Servers"
     icon: "fas fa-server"
     items:
+
+      - name: "pfSense"
+        logo: "assets/pfsense.png"
+        url:  "https://mobius.drak3.io"
+        target: "_blank" 
+
       - name: "Mobius"
         logo: "assets/truenas.png"
         url:  "https://mobius.drak3.io"
@@ -123,9 +129,9 @@ services:
         url:  "http://192.168.1.10"
         target: "_blank"
 
-      - name: "OctoPrint"
-        logo: "assets/octoprint.png"
-        url:  "https://octopi.drak3.io"
+      - name: "Fluidd"
+        logo: "assets/fluidd.png"
+        url:  "https://fluidd.drak3.io"
         target: "_blank"
 
   - name: "Media Services"
@@ -197,7 +203,7 @@ services:
         target: "_blank"
 
       - name: "Prowlarr (Indexer)"
-        logo: "assets/prowlarr.svg"
+        logo: "assets/prowlarr.png"
         url:  "https://prowlarr.drak3.io"
         target: "_blank"
 
