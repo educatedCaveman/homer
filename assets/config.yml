@@ -75,7 +75,7 @@ links:
 
   # Ethermine
   - name: "Ethermine"
-    icon: "fas fa-ethereum"
+    icon: "fab fa-ethereum"
     url:  "https://www.ethermine.org/miners/EeFCdd7FbCEE200627FB20a8A68B32bADA517003/dashboard"
     target: "_blank"
 
