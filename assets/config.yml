@@ -61,12 +61,6 @@ links:
     url:  "https://fontawesome.com/icons/"
     target: "_blank"
 
-  # Pirate Bay
-  - name: "The Pirate Bay"
-    icon: "fas fa-skull-crossbones"
-    url:  "https://thepiratebay.rocks"
-    target: "_blank"
-
   # Jira
   - name: "Jira"
     icon: "fab fa-jira"
@@ -77,6 +71,12 @@ links:
   - name: "Namecheap"
     icon: "fas fa-cubes"
     url:  "https://ap.www.namecheap.com"
+    target: "_blank"
+
+  # Ethermine
+  - name: "Ethermine"
+    icon: "fas fa-ethereum"
+    url:  "https://www.ethermine.org/miners/EeFCdd7FbCEE200627FB20a8A68B32bADA517003/dashboard"
     target: "_blank"
 
 services:
@@ -97,6 +97,11 @@ services:
       - name: "Tesseract"
         logo: "assets/proxmox.png"
         url:  "https://tesseract.drak3.io"
+        target: "_blank"    
+
+      - name: "Proxmox Backup Server"
+        logo: "assets/proxmox.png"
+        url:  "https://pbs.drak3.io"
         target: "_blank"
 
       - name: "Unifi Controller"
@@ -220,6 +225,11 @@ services:
       - name: "Syncthing"
         logo: "assets/syncthing.png"
         url:  "https://sync.drak3.io/syncthing/"
+        target: "_blank"
+
+      - name: "Syncthing (local)"
+        logo: "assets/syncthing.png"
+        url:  "http://localhost:8384/"
         target: "_blank"
 
       - name: "InfluxDB / Chronograf"
