@@ -196,9 +196,9 @@ services:
         url:  "https://bazarr.drak3.io"
         target: "_blank"
 
-      - name: "Jackett"
-        logo: "assets/jackett.png"
-        url:  "https://jackett.drak3.io"
+      - name: "Prowlarr (Indexer)"
+        logo: "assets/prowlarr.svg"
+        url:  "https://prowlarr.drak3.io"
         target: "_blank"
 
   - name: "Data Services"
@@ -214,11 +214,6 @@ services:
       - name: "Syncthing"
         logo: "assets/syncthing.png"
         url:  "https://sync.drak3.io/syncthing/"
-        target: "_blank"
-
-      - name: "Minio"
-        logo: "assets/minio.png"
-        url:  "https://s3.drak3.io/"
         target: "_blank"
 
       - name: "InfluxDB / Chronograf"
@@ -262,11 +257,6 @@ services:
       - name: "Apt Cache NG"
         icon: "fas fa-cubes"
         url:  "https://apt-cache.drak3.io/acng-report.html"
-        target: "_blank"
-
-      - name: "Apt Mirror"
-        icon: "fas fa-database"
-        url:  "https://apt-mirror.drak3.io/ubuntu"
         target: "_blank"
 
       - name: "Singularity"
@@ -330,16 +320,6 @@ services:
       - name: "YouTube DL (DEV)"
         logo: "assets/youtubedl.png"
         url:  "https://ytdl.dev.drak3.io"
-        target: "_blank"
-
-      - name: "Ombi"
-        logo: "assets/ombi.png"
-        url:  "https://ombi.dev.drak3.io"
-        target: "_blank"
-
-      - name: "Tautulli"
-        logo: "assets/tautulli.png"
-        url:  "https://tau.dev.drak3.io/"
         target: "_blank"
 
       - name: "VS Code (DEV)"
