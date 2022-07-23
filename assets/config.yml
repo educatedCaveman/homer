@@ -86,7 +86,7 @@ services:
 
       - name: "pfSense"
         logo: "assets/pfsense.png"
-        url:  "https://mobius.drak3.io"
+        url:  "https://pfsense.drak3.io"
         target: "_blank" 
 
       - name: "Mobius"
@@ -203,7 +203,7 @@ services:
         target: "_blank"
 
       - name: "Prowlarr (Indexer)"
-        logo: "assets/prowlarr.png"
+        logo: "assets/png/prowlarr.png"
         url:  "https://prowlarr.drak3.io"
         target: "_blank"
 
