@@ -56,6 +56,11 @@ links:
     url: "https://github.com/educatedCaveman"
     target: "_blank" # optional html tag target attribute
 
+  - name: "Documentation"
+    icon: "fab fa-github"
+    url:  "https://educatedcaveman.github.io/"
+    target: "_blank"
+
   - name: "Font Awesome Icons"
     icon: "fab fa-font-awesome"
     url:  "https://fontawesome.com/icons/"
