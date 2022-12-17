@@ -1,5 +1,5 @@
 ---
-# this comment is also a hack
+# this comment is a hack
 version: '3'
 services:
   homer:

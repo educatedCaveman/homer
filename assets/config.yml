@@ -216,11 +216,11 @@ services:
     icon: "fas fa-server"
     items:
 
-      - name: "Uptime-Kuma"
-        logo: "assets/uptime-kuma.png"
-        # url:  "https://uptime.drak3.io/"
-        url:  "http://192.168.12.20:3001/"
-        target: "_blank"
+      # - name: "Uptime-Kuma"
+      #   logo: "assets/uptime-kuma.png"
+      #   # url:  "https://uptime.drak3.io/"
+      #   url:  "http://192.168.12.20:3001/"
+      #   target: "_blank"
 
       - name: "Syncthing"
         logo: "assets/syncthing.png"
@@ -232,10 +232,10 @@ services:
         url:  "http://localhost:8384/"
         target: "_blank"
 
-      - name: "InfluxDB / Chronograf"
-        logo: "assets/influxdb.svg"
-        url:  "https://influx.drak3.io/"
-        target: "_blank"
+      # - name: "InfluxDB / Chronograf"
+      #   logo: "assets/influxdb.svg"
+      #   url:  "https://influx.drak3.io/"
+      #   target: "_blank"
 
       - name: "Grafana"
         logo: "assets/grafana.svg"
