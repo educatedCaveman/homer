@@ -158,15 +158,10 @@ services:
         url:  "https://plex.drak3.io"
         target: "_blank"
 
-      - name: "Ombi"
-        logo: "assets/ombi.png"
-        url:  "https://ombi.drak3.io"
-        target: "_blank"
-
-      - name: "Tautulli"
-        logo: "assets/tautulli.png"
-        url:  "https://tau.drak3.io/"
-        target: "_blank"
+      # - name: "Tautulli"
+      #   logo: "assets/tautulli.png"
+      #   url:  "https://tau.drak3.io/"
+      #   target: "_blank"
 
       - name: "NextCloud"
         logo: "assets/nextcloud.png"
