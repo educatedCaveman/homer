@@ -85,7 +85,7 @@ links:
   #   target: "_blank"
 
   - name: "Gatus (status)"
-    logo: "assets/gatus.png"
+    icon: "fas fa-circle-exclamation"
     url:  "https://status.drak3.io"
     target: "_blank"
 
