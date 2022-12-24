@@ -85,7 +85,7 @@ links:
   #   target: "_blank"
 
   - name: "Gatus (status)"
-    logo: "assets/gatus.svg"
+    logo: "assets/gatus.png"
     url:  "https://status.drak3.io"
     target: "_blank"
 
@@ -227,7 +227,7 @@ services:
     items:
 
       - name: "Gatus"
-        logo: "assets/gatus.svg"
+        logo: "assets/gatus.png"
         url:  "https://status.drak3.io/"
         target: "_blank"
 
