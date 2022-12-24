@@ -78,10 +78,15 @@ links:
     url:  "https://ap.www.namecheap.com"
     target: "_blank"
 
-  # Ethermine
-  - name: "Ethermine"
-    icon: "fab fa-ethereum"
-    url:  "https://www.ethermine.org/miners/EeFCdd7FbCEE200627FB20a8A68B32bADA517003/dashboard"
+  # # Ethermine
+  # - name: "Ethermine"
+  #   icon: "fab fa-ethereum"
+  #   url:  "https://www.ethermine.org/miners/EeFCdd7FbCEE200627FB20a8A68B32bADA517003/dashboard"
+  #   target: "_blank"
+
+  - name: "Gatus (status)"
+    logo: "assets/gatus.svg"
+    url:  "https://status.drak3.io"
     target: "_blank"
 
 services:
@@ -221,11 +226,10 @@ services:
     icon: "fas fa-server"
     items:
 
-      # - name: "Uptime-Kuma"
-      #   logo: "assets/uptime-kuma.png"
-      #   # url:  "https://uptime.drak3.io/"
-      #   url:  "http://192.168.12.20:3001/"
-      #   target: "_blank"
+      - name: "Gatus"
+        logo: "assets/gatus.svg"
+        url:  "https://status.drak3.io/"
+        target: "_blank"
 
       - name: "Syncthing"
         logo: "assets/syncthing.png"
