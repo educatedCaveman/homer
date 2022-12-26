@@ -251,6 +251,11 @@ services:
         url:  "https://nvr.drak3.io"
         target: "_blank"
 
+      - name: "Diskover"
+        logo: "assets/diskover.png"
+        url:  "https://diskover.drak3.io"
+        target: "_blank"
+
   - name: "Development Tools"
     icon: "fas fa-server"
     items:
@@ -331,24 +336,9 @@ services:
     icon: "fas fa-server"
     items:
 
-      - name: "Guacamole (DEV)"
-        logo: "assets/guacamole.png"
-        url:  "https://guac.dev.drak3.io"
-        target: "_blank"
-
-      - name: "HandBrake"
-        logo: "assets/handbrake.png"
-        url:  "https://hb.dev.drak3.io"
-        target: "_blank"
-
       - name: "YouTube DL (DEV)"
         logo: "assets/youtubedl.png"
         url:  "https://ytdl.dev.drak3.io"
-        target: "_blank"
-
-      - name: "VS Code (DEV)"
-        logo: "assets/vscode.svg"
-        url:  "https://code.dev.drak3.io"
         target: "_blank"
 
       - name: "Portainer (DEV)"
@@ -356,38 +346,7 @@ services:
         url:  "https://portainer.dev.drak3.io/"
         target: "_blank"
 
-      - name: "Grafana"
-        logo: "assets/grafana.svg"
-        url:  "https://grafana.dev.drak3.io/"
+      - name: "Diskover"
+        logo: "assets/diskover.png"
+        url:  "https://diskover.dev.drak3.io"
         target: "_blank"
-
-  # - name: "Netdata"
-  #   icon: "fas fa-tachometer"
-  #   items:
-    
-  #     - name: "Tesseract"
-  #       logo: "assets/netdata.png"
-  #       url:  "https://tesseract.srv:19999"
-  #       target: "_blank"
-    
-  #     - name: "Singularity"
-  #       logo: "assets/netdata.png"
-  #       url:  "https://singularity.vm:19999"
-  #       target: "_blank"
-    
-  #     - name: "Sevastopol"
-  #       logo: "assets/netdata.png"
-  #       url:  "https://sevastopol.vm:19999"
-  #       target: "_blank"
-    
-  #     - name: "Event Horizon"
-  #       logo: "assets/netdata.png"
-  #       url:  "https://event-horizon.srv:19999"
-  #       target: "_blank"
-    
-  #     - name: "Dilithium"
-  #       logo: "assets/netdata.png"
-  #       url:  "https://dilithium.srv:19999"
-  #       target: "_blank"
-
-        
