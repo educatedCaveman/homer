@@ -158,10 +158,10 @@ services:
         url:  "https://plex.drak3.io"
         target: "_blank"
 
-      # - name: "Tautulli"
-      #   logo: "assets/tautulli.png"
-      #   url:  "https://tau.drak3.io/"
-      #   target: "_blank"
+      - name: "Tautulli"
+        logo: "assets/tautulli.png"
+        url:  "https://tau.drak3.io/"
+        target: "_blank"
 
       - name: "NextCloud"
         logo: "assets/nextcloud.png"
@@ -268,6 +268,10 @@ services:
       - name: "Portainer"
         logo: "assets/portainer.png"
         url:  "https://portainer.drak3.io/"
+
+      - name: "Portainer (Pi)"
+        logo: "assets/portainer.png"
+        url:  "https://portainer-pi.drak3.io/"
         target: "_blank"
 
   - name: "Admin Tools"
@@ -352,44 +356,38 @@ services:
         url:  "https://portainer.dev.drak3.io/"
         target: "_blank"
 
-      - name: "Uptime-Kuma (DEV)"
-        logo: "assets/uptime-kuma.png"
-        # url:  "https://uptime.dev.drak3.io/"
-        url:  "http://192.168.13.20:3001/"
-        target: "_blank"
-
       - name: "Grafana"
         logo: "assets/grafana.svg"
         url:  "https://grafana.dev.drak3.io/"
         target: "_blank"
 
-  - name: "Netdata"
-    icon: "fas fa-tachometer"
-    items:
+  # - name: "Netdata"
+  #   icon: "fas fa-tachometer"
+  #   items:
     
-      - name: "Tesseract"
-        logo: "assets/netdata.png"
-        url:  "https://tesseract.srv:19999"
-        target: "_blank"
+  #     - name: "Tesseract"
+  #       logo: "assets/netdata.png"
+  #       url:  "https://tesseract.srv:19999"
+  #       target: "_blank"
     
-      - name: "Singularity"
-        logo: "assets/netdata.png"
-        url:  "https://singularity.vm:19999"
-        target: "_blank"
+  #     - name: "Singularity"
+  #       logo: "assets/netdata.png"
+  #       url:  "https://singularity.vm:19999"
+  #       target: "_blank"
     
-      - name: "Sevastopol"
-        logo: "assets/netdata.png"
-        url:  "https://sevastopol.vm:19999"
-        target: "_blank"
+  #     - name: "Sevastopol"
+  #       logo: "assets/netdata.png"
+  #       url:  "https://sevastopol.vm:19999"
+  #       target: "_blank"
     
-      - name: "Event Horizon"
-        logo: "assets/netdata.png"
-        url:  "https://event-horizon.srv:19999"
-        target: "_blank"
+  #     - name: "Event Horizon"
+  #       logo: "assets/netdata.png"
+  #       url:  "https://event-horizon.srv:19999"
+  #       target: "_blank"
     
-      - name: "Dilithium"
-        logo: "assets/netdata.png"
-        url:  "https://dilithium.srv:19999"
-        target: "_blank"
+  #     - name: "Dilithium"
+  #       logo: "assets/netdata.png"
+  #       url:  "https://dilithium.srv:19999"
+  #       target: "_blank"
 
         
